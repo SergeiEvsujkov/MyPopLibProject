@@ -15,6 +15,7 @@ class CountersModel {
         counters[index] = value
     }
 
+    
     fun getPosition(id: Int): Int {
 
         return when (id) {
