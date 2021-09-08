@@ -15,14 +15,15 @@ class CountersModel {
         counters[index] = value
     }
 
+
     fun getPosition(id: Int): Int {
 
         return when (id) {
-            R.id.btn_counter1 -> 1
+            R.id.btn_counter1 -> 0
 
-            R.id.btn_counter2 -> 2
+            R.id.btn_counter2 -> 1
 
-            R.id.btn_counter3 -> 3
+            R.id.btn_counter3 -> 2
 
             else -> throw IllegalStateException("Такого индекса нет")
         }
