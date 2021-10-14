@@ -3,4 +3,6 @@
     <string name="counter_one">Счетчик 1</string>
     <string name="counter_two">Счетчик 2</string>
     <string name="counter_three">Счетчик 3</string>
+    <string name="set_image">Выбрать изображение</string>
+    <string name="convert">Конвертировать в PNG</string>
 </resources>
