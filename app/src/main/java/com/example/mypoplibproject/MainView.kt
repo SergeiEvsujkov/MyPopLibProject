@@ -1,6 +1,15 @@
 package com.example.mypoplibproject
 
-interface MainView {
+import android.graphics.Bitmap
+import moxy.MvpView
+import moxy.viewstate.strategy.AddToEndSingleStrategy
+import moxy.viewstate.strategy.StateStrategyType
+import moxy.viewstate.strategy.alias.AddToEndSingle
 
-    fun setButtonText(index: Int, text: String)
+@StateStrategyType(AddToEndSingleStrategy::class)
+
+interface MainView : MvpView {
+
+    fun setImage()
+
 }
